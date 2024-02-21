@@ -186,7 +186,7 @@ nav {
 .imp-links,
 .shortcut-links {
     border-bottom: 1px solid #393e46;
-    padding-bottom: 20px; /* Added padding */
+    padding-bottom: 20px; 
 }
 
 .imp-links h4,
@@ -199,7 +199,7 @@ nav {
 
 .imp-links a:hover,
 .home a:hover {
-    background-color: var(--color-light); /* Lighten the background on hover */
+    background-color: var(--color-light); 
 }
 
 .shortcut-links a img {
@@ -251,7 +251,7 @@ main .container .imp-links {
     border-radius: var(--card-border-radius);
 }
 .left-sidebar.active {
-    z-index: 1; /* Ensure the sidebar is on top */
+    z-index: 1; 
 }
 .imp-links a {
     display: flex;
@@ -264,7 +264,7 @@ main .container .imp-links {
 
 .imp-links a:hover {
     background: var(--color-light);
-    width: 100%; /* widen the hover */
+    width: 100%; 
 }
 
 .shortcut-links a {
@@ -281,7 +281,7 @@ main .container .imp-links {
 
 .shortcut-links a:hover {
     background: var(--color-light);
-    width: 95%; /* widen the hover */
+    width: 95%; 
 }
 
 .imp-links i {
