@@ -42,6 +42,7 @@ nav {
     padding: 5px 5%;
     top: 0;
     z-index: 100;
+    position: sticky;
 }
 
 .logo {
@@ -111,13 +112,14 @@ nav {
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 13px 5%;
-    margin: 0 auto;
+    padding: 5px 3%;
+    border-radius: var(--card-border-radius);
+  grid-template-columns: 18vw auto 20vw;
 }
 
 .right-sidebar {
     flex-basis: 25%;
-    position: sticky;
+    
     top: 70px;
     align-self: flex-start;
     background: #fceed1;
@@ -127,7 +129,7 @@ nav {
 }
 
 .left-sidebar {
-    flex-basis: 25%;
+    flex-basis: 22%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
@@ -165,7 +167,7 @@ nav {
 }
 
 .home {
-    border-bottom: 1px solid #393e46;
+    border-bottom: 1px solid #8d929b;
 }
 
 .imp-links a i,
@@ -183,9 +185,9 @@ nav {
     font-size: smaller;
 }
 
-.imp-links,
-.shortcut-links {
-    border-bottom: 1px solid #393e46;
+.imp-links
+ {
+    border-bottom: 1px solid #8d929b;
     padding-bottom: 20px; 
 }
 
@@ -289,6 +291,7 @@ main .container .imp-links {
     color: var(--color-gray);
     margin-left: 2rem;
     position: relative;
+    
 }
 
 .imp-links h4 {
@@ -317,6 +320,7 @@ main .container .imp-links {
 .imp-links .active a, 
 .imp-links i {
     color: var(--color-primary);
+    
 }
 
 .left-sidebar.active .imp-links a:hover::before {
@@ -336,4 +340,11 @@ main .container .imp-links {
 .imp-links .left-sidebar:last-child.active {
     border-top-left-radius: var(--card-border-radius);
     overflow: hidden;
+}
+
+.home { 
+    margin-left: 5px;
+}
+.home i {
+    margin-right: 30px;
 }
